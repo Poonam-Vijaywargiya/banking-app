@@ -45,5 +45,6 @@ o Credit = Green
 ### Scroll bar for table if the data increases, when data in table increases a scroll bar apears to show extra rows without disturing the page layout.
 ### Every row hover shows color change for the row to show the highlighted row. 
 ### Added clear sorting button to remove if any sorting aplied to the table. 
+### Added responsiveness to the application 
 ### Added accessibility using semantic HTML for html tags and image alt tags for images. 
 ### Written Test cases using jest and react testing library to test component behaviour.
