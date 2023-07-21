@@ -1,0 +1,20 @@
+.sortingButton{
+    background-color: transparent;
+    border: 1px solid #3d3935;
+    color: #3d3935;
+    cursor: pointer;
+    font-size: 18px;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: transparent;
+    text-align: center;
+    margin-top: 6vh;
+    float: right;
+  }
+  
+  .sortingButton:hover {
+    background-color: #3d3935;
+    color: white;
+  }
