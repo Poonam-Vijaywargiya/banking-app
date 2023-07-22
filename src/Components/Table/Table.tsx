@@ -46,13 +46,13 @@ const Table = () => {
                 <th>Asset Class <img src="sort.png" className="sort-icon" onClick={sortAssetClass} alt="sort-image"  ></img></th>
             </tr>
           </thead>
-          <tbody className="table-body">
+          <tbody className="table-body" data-testid='tableTest'>
              { data.length > 0 && data.map((val, key) => {
                 return (
-                    <tr  key={key} className={rowBackground(val.assetClass)}>  
-                      <td>{val.ticker}</td>
-                      <td style={priceCellColor(val.price)}>{val.price}</td>
-                      <td>{val.assetClass}</td>
+                    <tr key={key} className={rowBackground(val.assetClass)}>  
+                      <td data-testid='tickerTest'>{val.ticker}</td>
+                      <td style={priceCellColor(val.price)} data-testid='priceTest'>{val.price}</td>
+                      <td data-testid='assetClassTest'>{val.assetClass}</td>
                     </tr>
                 )
             })}
